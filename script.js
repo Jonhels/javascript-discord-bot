@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Token and discord classes
 const { Client, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config.json');
+const { token } = require('./key.json');
 
 // Creating a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
